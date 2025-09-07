@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.btn-signup {
+  background: #111;
+  color: #fff;
+  padding: 8px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-text .highlight {
+  background: #f7d54f;
+  padding: 0 6px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.btn-shop {
+  background: #111;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
+}
+
+/* Brands Section */
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f7d54f;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.brands img {
+  height: 40px;
+  margin: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-image img {
+    margin-top: 30px;
+  }
+}
