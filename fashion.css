@@ -160,7 +160,7 @@
           display: flex;
           justify-content: center;
           gap: 80px;
-          flex-wrap: wrap;
+          
       }
 
 
@@ -216,7 +216,7 @@
           display: flex;
           justify-content: center;
           gap: 120px;
-          flex-wrap: wrap;
+          
       }
 
       .img-as4 {
@@ -364,14 +364,14 @@
 
       @media screen and (max-width: 480px) {
           .head {
-              width: 300%;
+              width: 350%;
               height: 100px;
           }
           .sec1{
-            width: 270%;
+            width: 300%;
           }
           img{
-            width: 590px;
+            width: 570px;
           }
           p{
             line-height: 110%;
